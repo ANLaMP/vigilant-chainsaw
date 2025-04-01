@@ -1,0 +1,23 @@
+[build-system]
+requires = ["hatchling >= 1.26"]
+build-backend = "hatchling.build"
+
+[project]
+name = "example_package_pattersonal2332"
+version = "0.0.1"
+authors = [
+  { name="ALPatterson", email="pattersonal2332@gmail.com" },
+]
+description = "A small example package"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+license = "MIT"
+license-files = ["LICEN[CS]E*"]
+
+[project.urls]
+Homepage = "https://github.com/ANLaMP/vigilant-chainsaw"
+Issues = "https://github.com/ANLaMP/vigilant-chainsaw/issues"
