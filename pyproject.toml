@@ -21,3 +21,6 @@ license-files = ["LICEN[CS]E*"]
 [project.urls]
 Homepage = "https://github.com/ANLaMP/vigilant-chainsaw"
 Issues = "https://github.com/ANLaMP/vigilant-chainsaw/issues"
+
+[tool.hatch.build.targets.wheel]
+packages = ["example_package_pattersonal2332"]
