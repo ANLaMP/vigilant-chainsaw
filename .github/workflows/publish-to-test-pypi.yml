@@ -1,4 +1,4 @@
-name: Publish Python 🐍 distribution 📦 to TestPyPI
+name: Publish Python 🐍 distribution 📦 to PyPI and TestPyPI
 
 on:
   push:
@@ -64,7 +64,7 @@ jobs:
 
     environment:
       name: testpypi
-      url:  https://pypi.org/p/example-package-pattersonal2332
+      url: https://test.pypi.org/p/example_package_pattersonal2332
 
     permissions:
       id-token: write  # IMPORTANT: mandatory for trusted publishing
